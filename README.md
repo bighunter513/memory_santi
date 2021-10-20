@@ -7,9 +7,11 @@ https://mp.weixin.qq.com/s/0UPoLV3Ltp34yQJy5iUZbA 进行整理，添加了Makefi
 
 理论上gcc 需要 >= 4.9.2
 
-# dnf -y install libasan    # 安装 libasan 依赖库
+dnf -y install libasan    # 安装 libasan 依赖库
 
 use gcc 11.2 and libasan to detect kinds of invalid pointer use
+
+# 编译测试：
 
 1. normally you can use make & make test  
 
